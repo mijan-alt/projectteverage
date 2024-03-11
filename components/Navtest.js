@@ -1,9 +1,12 @@
+"use client"
 import React from "react";
 import { Syne } from "next/font/google";
+import { usePathname } from "next/navigation";
 
 
 const syne = Syne({ subsets: ["latin"] });
 const Navbar = () => {
+  const pathname = usePathname()
   return (
     <div
       data-animation="default"
@@ -31,22 +34,28 @@ const Navbar = () => {
           >
             <a
               href="/"
-              className={`nav-link w-nav-link ${syne.className}`}
+              className={`nav-link w-nav-link ${
+                pathname == "/" && " w--current"
+              } ${syne.className}`}
               style={{ maxWidth: "1320px" }}
             >
               Home
             </a>
             <a
-              href="/about-us"
+              href="/about"
               aria-current="page"
-              className={`nav-link w-nav-link w--current ${syne.className}`}
+              className={`nav-link w-nav-link  ${
+                pathname == "/about" && " w--current"
+              } ${syne.className}`}
               style={{ maxWidth: "1320px" }}
             >
               About Us
             </a>
             <a
               href="/services"
-              className={`nav-link w-nav-link ${syne.className}`}
+              className={`nav-link w-nav-link ${
+                pathname == "/services" && " w--current"
+              } ${syne.className}`}
               style={{ maxWidth: "1320px" }}
             >
               Services
@@ -79,7 +88,9 @@ const Navbar = () => {
               >
                 <a
                   href="/"
-                  className={`dropdown-link w-dropdown-link ${syne.className}`}
+                  className={`dropdown-link w-dropdown-link ${
+                    pathname == "/" && " w--current"
+                  } ${syne.className}`}
                   tabIndex="0"
                 >
                   Home
@@ -92,16 +103,20 @@ const Navbar = () => {
                   Home 2
                 </a>
                 <a
-                  href="/about-us"
+                  href="/about"
                   aria-current="page"
-                  className={`dropdown-link w-dropdown-link ${syne.className}`}
+                  className={`dropdown-link w-dropdown-link ${
+                    pathname == "/about" && " w--current"
+                  } ${syne.className}`}
                   tabIndex="0"
                 >
                   About Us
                 </a>
                 <a
                   href="/services"
-                  className={`dropdown-link w-dropdown-link ${syne.className}`}
+                  className={`dropdown-link w-dropdown-link ${
+                    pathname == "/services" && " w--current"
+                  } ${syne.className}`}
                   tabIndex="0"
                 >
                   Services
@@ -115,22 +130,28 @@ const Navbar = () => {
                 </a>
                 <a
                   href="/team"
-                  className={`dropdown-link w-dropdown-link ${syne.className}`}
+                  className={`dropdown-link w-dropdown-link ${
+                    pathname == "/team" && " w--current"
+                  } ${syne.className}`}
                   tabIndex="0"
                 >
                   Team
                 </a>
                 <a
                   href="/blog"
-                  className={`dropdown-link w-dropdown-link ${syne.className}`}
+                  className={`dropdown-link w-dropdown-link ${
+                    pathname == "/blog" && " w--current"
+                  } ${syne.className}`}
                   tabIndex="0"
                 >
                   Blog
                 </a>
                 <a
-                  href="/contact-us"
+                  href="/contactUs"
                   c
-                  className={`dropdown-link w-dropdown-link ${syne.className}`}
+                  className={`dropdown-link w-dropdown-link ${
+                    pathname == "/contactUs" && " w--current"
+                  } ${syne.className}`}
                   tabIndex="0"
                 >
                   Contact Us
@@ -139,7 +160,10 @@ const Navbar = () => {
             </div>
           </nav>
           <div className="navbar-button">
-            <a href="/contactUs" className={`button w-button ${syne.className}`}>
+            <a
+              href="/contactUs"
+              className={`button w-button ${syne.className}`}
+            >
               Get a Quote
             </a>
           </div>

@@ -1,8 +1,6 @@
 import { Inter } from 'next/font/google'
 import { Syne } from 'next/font/google'
 import './globals.css'
-import { Nav } from '@/components/Navbar'
-import Realfooter from '@/components/Realfooter'
 import Navbar from '@/components/Navtest'
 import Footer from '@/components/Footer'
 

@@ -14,7 +14,7 @@ function ActionBoxSection() {
           </div>
           <div className="action-box-button">
             <a href="/contactUs" className="button-rounded w-button">
-              Let’s Talk
+              Let us Talk
             </a>
           </div>
           <div

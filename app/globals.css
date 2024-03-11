@@ -518,7 +518,7 @@ button, [type="button"], [type="reset"] {
   text-align: center;
   background-color: #ddd;
   padding: 20px;
-  display: none;
+
 }
 
 .w-form-fail {

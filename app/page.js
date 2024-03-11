@@ -1,3 +1,4 @@
+"use client"
 import HeroSection from "@/components/HeroSection"
 import AboutHome from "@/components/AboutHome"
 import ServiceSection from "@/components/ServiceSection"
@@ -6,7 +7,7 @@ import TestimonialSection from "@/components/Testimonial"
 import ActionBoxSection from "@/components/ActionBox"
 import BlogSection from "@/components/BlogSection"
 
-export default function Home() {
+export default function page() {
   return (
     <div className="">
       <HeroSection />
