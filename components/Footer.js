@@ -41,12 +41,12 @@ function Footer({font}) {
                 <Link href="/">
                   <span className={`footer-link ${font}`}>Home</span>
                 </Link>
-                <Link href="/home-2">
+                <Link href="/">
                   <span className={`footer-link ${font}`}>Home 2</span>
                 </Link>
               </li>
               <li>
-                <Link href="/about-us">
+                <Link href="/about">
                   <span className={`footer-link ${font}`}>About Us</span>
                 </Link>
                 <Link href="/team">
@@ -72,7 +72,7 @@ function Footer({font}) {
             <h6 className={`footer-title ${font}`}>Pages</h6>
             <ul role="list" className="w-list-unstyled">
               <li>
-                <Link href="/contact-us">
+                <Link href="/contactUs">
                   <span className={`footer-title ${font}`}>Contact Us</span>
                 </Link>
               </li>
