@@ -76,7 +76,7 @@ const page = () => {
                   land likeness open subdue.
                 </p>
                 <a
-                  href="/service-single"
+                  href="/servicedetails"
                   className="button-link-dark w-inline-block"
                 >
                   <div className="button-link-text">Explore Now</div>
@@ -97,7 +97,7 @@ const page = () => {
                 />
               </div>
             </div>
-            <div className="service-item">
+            {/* <div className="service-item">
               <div className="service-info">
                 <h4 className="service-info-title">Ocean Freight</h4>
                 <p>
@@ -105,7 +105,7 @@ const page = () => {
                   replenish won't greater made wherein.
                 </p>
                 <a
-                  href="/service-single"
+                  href="/servicedetails"
                   className="button-link-dark w-inline-block"
                 >
                   <div className="button-link-text">Explore Now</div>
@@ -125,7 +125,7 @@ const page = () => {
                   className="service-icon-image"
                 />
               </div>
-            </div>
+            </div> */}
             <div className="service-item">
               <div className="service-info">
                 <h4 className="service-info-title">Road Freight</h4>
@@ -134,7 +134,7 @@ const page = () => {
                   prosperous. Sincerity collected contented.
                 </p>
                 <a
-                  href="/service-single"
+                  href="/servicedetails"
                   className="button-link-dark w-inline-block"
                 >
                   <div className="button-link-text">Explore Now</div>
@@ -163,7 +163,7 @@ const page = () => {
                   abundantly face sixth made.
                 </p>
                 <a
-                  href="/service-single"
+                  href="/servicedetails"
                   className="button-link-dark w-inline-block"
                 >
                   <div className="button-link-text">Explore Now</div>
@@ -213,7 +213,7 @@ const page = () => {
                 />
               </div>
             </div>
-            <div className="service-item">
+            {/* <div className="service-item">
               <div className="service-info">
                 <h4 className="service-info-title">Import</h4>
                 <p>
@@ -221,7 +221,7 @@ const page = () => {
                   saying for great saying made had fly.
                 </p>
                 <a
-                  href="/service-single"
+                  href="/servicedetails"
                   className="button-link-dark w-inline-block"
                 >
                   <div className="button-link-text">Explore Now</div>
@@ -241,7 +241,7 @@ const page = () => {
                   className="service-icon-image"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="decoration blur-2"></div>
