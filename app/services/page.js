@@ -68,7 +68,7 @@ const page = () => {
             <h2>Find Out What We’re Doing</h2>
           </div>
           <div className="w-layout-grid grid-service">
-            <div className="service-item">
+            {/* <div className="service-item">
               <div className="service-info">
                 <h4 className="service-info-title">Air Freight</h4>
                 <p>
@@ -96,7 +96,7 @@ const page = () => {
                   className="service-icon-image"
                 />
               </div>
-            </div>
+            </div> */}
             {/* <div className="service-item">
               <div className="service-info">
                 <h4 className="service-info-title">Ocean Freight</h4>
@@ -184,7 +184,7 @@ const page = () => {
                 />
               </div>
             </div>
-            <div className="service-item">
+            {/* <div className="service-item">
               <div className="service-info">
                 <h4 className="service-info-title">Rail Freight</h4>
                 <p>
@@ -212,7 +212,7 @@ const page = () => {
                   className="service-icon-image"
                 />
               </div>
-            </div>
+            </div> */}
             {/* <div className="service-item">
               <div className="service-info">
                 <h4 className="service-info-title">Import</h4>
