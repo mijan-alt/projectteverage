@@ -16,8 +16,7 @@ function Footer({font}) {
               />
             </a>
             <p className={`footer-about text-white ${font}`}>
-              Morning that made is Was that his hath face light meat air female
-              isn't over place replenish.
+              Your partner in efficient flatbed transportation
             </p>
             <div className="footer-address-wrap">
               <div className="address-icon">
@@ -29,7 +28,7 @@ function Footer({font}) {
               </div>
               <div className="address-content ">
                 <p className={`text-white ${font}`}>
-                  2002 Horton Ford Rd, Eidson, TN, 37731
+                    3 Market Road, Rumuomasi, Port-Harcourt, Nigeria
                 </p>
               </div>
             </div>
@@ -76,21 +75,21 @@ function Footer({font}) {
                   <span className={`footer-title ${font}`}>Contact Us</span>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/utility-pages/style-guide">
                   <span className={`footer-title ${font}`}>Style Guide</span>
                 </Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link href="/utility-pages/instructions">
                   <span className={`footer-title ${font}`}>Instructions</span>
                 </Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link href="/utility-pages/licenses">
                   <span className={`footer-title ${font}`}>Licenses</span>
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/utility-pages/changelog">
                   <span className="footer-link">Changelog</span>
@@ -103,18 +102,15 @@ function Footer({font}) {
             <p className={`text-white ${font}`}>
               Don’t hesitate to call or drop us a line.
             </p>
-            <h3 className={`text-primary ${font}`}>+91 123 456 789</h3>
+            <h3 className={`text-primary ${font}`}>+234 7082642998</h3>
           </div>
         </div>
         <div className="w-layout-grid grid-copyright">
           <p className={`copyright-text ${font}`}>
-            Copyright © Torcular | Designed by{" "}
-            <a href="https://www.webestica.com" target="_blank">
-              Webestica
-            </a>{" "}
-            - Powered by{" "}
-            <a href="https://webflow.com" target="_blank">
-              Webflow
+            Copyright © TeverageLimite | Designed by{" "}
+            <a href="" target="_blank"></a> - Powered by{" "}
+            <a href="" target="_blank">
+              MijanTech
             </a>
           </p>
           <div

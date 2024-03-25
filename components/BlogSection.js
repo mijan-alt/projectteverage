@@ -2,6 +2,27 @@
 import React from "react";
 
 const BlogSection = () => {
+
+
+  const blogArray = [
+    {
+      id:1,
+      category: "Courier",
+      title: "Top effective business elevator pitches",
+      date: "March 1, 2022",
+    },
+    {
+      id:2,
+      category: "Logistics",
+      title: "The pros and cons of creative startups",
+      date: "March 1, 2022",
+    },
+    {id:3,
+      category: "Moving",
+      title: "The investment doubts you should clarify",
+      date: "March 1, 2022",
+    },
+  ];
   return (
     <div className="blog-section section-spacing-bottom">
       <div className="container w-container">
@@ -48,7 +69,7 @@ const BlogSection = () => {
                     </a>
                     <a
                       data-w-id="1cfd2a32-c618-4373-1c7a-dcae6c7c5d75"
-                      href="/blog/top-effective-business-elevator-pitches"
+                      href={`/blogdetails/`}
                       className="button-link-primary w-inline-block"
                     >
                       <div className="button-link-text-primary">
@@ -75,126 +96,48 @@ const BlogSection = () => {
           <div id="w-node-_2d872270-146b-d64a-fcc0-3cea9be5f183-b7dd0633">
             <div className="w-dyn-list">
               <div role="list" className="w-dyn-items">
-                <div role="listitem" className="w-dyn-item">
-                  <div className="blog-item">
-                    <div className="blog-info">
-                      <div className="blog-meta">
-                        <div className="blog-category">Courier</div>
-                        <div className="blog-date">March 1, 2022</div>
-                      </div>
-                      <a
-                        href="/blog/top-effective-business-elevator-pitches"
-                        className="w-inline-block"
-                      >
-                        <h5 className="blog-title">
-                          Top effective business elevator pitches
-                        </h5>
-                      </a>
-                      <a
-                        data-w-id="220fbd91-b670-df96-cf94-a6cb3eeba5e6"
-                        href="/blog/top-effective-business-elevator-pitches"
-                        className="button-link-primary w-inline-block"
-                      >
-                        <div className="button-link-text-primary">
-                          Read Article
+                {blogArray.map((blogItem, index) => (
+                  <div role="listitem" className="w-dyn-item" key={index}>
+                    <div className="blog-item">
+                      <div className="blog-info">
+                        <div className="blog-meta">
+                          <div className="blog-category">{blogItem.category}</div>
+                          <div className="blog-date">{blogItem.date}</div>
                         </div>
-                        <img
-                          src="https://assets-global.website-files.com/62172851fe5d176bbedd0632/6217398f06568de403e14e63_arrow-up-right.svg"
-                          loading="lazy"
-                          style={{
-                            transform:
-                              "translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(null) rotateY(null) rotateZ(0deg) skew(0, 0)",
-                            WebkitTransform:
-                              "translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(null) rotateY(null) rotateZ(0deg) skew(0, 0)",
-                          }}
-                          alt=""
-                          className="button-link-icon"
-                        />
-                      </a>
-                      <div className="horizontal-line spacing-small"></div>
+                        <a
+                          href="/blog/top-effective-business-elevator-pitches"
+                          className="w-inline-block"
+                        >
+                          <h5 className="blog-title">
+                           {blogItem.title}
+                          </h5>
+                        </a>
+                        <a
+                          data-w-id="220fbd91-b670-df96-cf94-a6cb3eeba5e6"
+                          href={`/blogdetails/${blogItem.title}/${blogItem.id}`}
+                          className="button-link-primary w-inline-block"
+                        >
+                          <div className="button-link-text-primary">
+                            Read Article
+                          </div>
+                          <img
+                            src="https://assets-global.website-files.com/62172851fe5d176bbedd0632/6217398f06568de403e14e63_arrow-up-right.svg"
+                            loading="lazy"
+                            style={{
+                              transform:
+                                "translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(null) rotateY(null) rotateZ(0deg) skew(0, 0)",
+                              WebkitTransform:
+                                "translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(null) rotateY(null) rotateZ(0deg) skew(0, 0)",
+                            }}
+                            alt=""
+                            className="button-link-icon"
+                          />
+                        </a>
+                        <div className="horizontal-line spacing-small"></div>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div role="listitem" className="w-dyn-item">
-                  <div className="blog-item">
-                    <div className="blog-info">
-                      <div className="blog-meta">
-                        <div className="blog-category">Logistics</div>
-                        <div className="blog-date">March 1, 2022</div>
-                      </div>
-                      <a
-                        href="/blog/the-pros-and-cons-of-creative-startups"
-                        className="w-inline-block"
-                      >
-                        <h5 className="blog-title">
-                          The pros and cons of creative startups
-                        </h5>
-                      </a>
-                      <a
-                        data-w-id="220fbd91-b670-df96-cf94-a6cb3eeba5e6"
-                        href="/blog/the-pros-and-cons-of-creative-startups"
-                        className="button-link-primary w-inline-block"
-                      >
-                        <div className="button-link-text-primary">
-                          Read Article
-                        </div>
-                        <img
-                          src="https://assets-global.website-files.com/62172851fe5d176bbedd0632/6217398f06568de403e14e63_arrow-up-right.svg"
-                          loading="lazy"
-                          style={{
-                            transform:
-                              "translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(null) rotateY(null) rotateZ(0deg) skew(0, 0)",
-                            WebkitTransform:
-                              "translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(null) rotateY(null) rotateZ(0deg) skew(0, 0)",
-                          }}
-                          alt=""
-                          className="button-link-icon"
-                        />
-                      </a>
-                      <div className="horizontal-line spacing-small"></div>
-                    </div>
-                  </div>
-                </div>
-                <div role="listitem" className="w-dyn-item">
-                  <div className="blog-item">
-                    <div className="blog-info">
-                      <div className="blog-meta">
-                        <div className="blog-category">Moving</div>
-                        <div className="blog-date">March 1, 2022</div>
-                      </div>
-                      <a
-                        href="/blog/the-investment-doubts-you-should-clarify"
-                        className="w-inline-block"
-                      >
-                        <h5 className="blog-title">
-                          The investment doubts you should clarify
-                        </h5>
-                      </a>
-                      <a
-                        data-w-id="220fbd91-b670-df96-cf94-a6cb3eeba5e6"
-                        href="/blog/the-investment-doubts-you-should-clarify"
-                        className="button-link-primary w-inline-block"
-                      >
-                        <div className="button-link-text-primary">
-                          Read Article
-                        </div>
-                        <img
-                          src="https://assets-global.website-files.com/62172851fe5d176bbedd0632/6217398f06568de403e14e63_arrow-up-right.svg"
-                          loading="lazy"
-                          style={{
-                            transform:
-                              "translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(null) rotateY(null) rotateZ(0deg) skew(0, 0)",
-                            WebkitTransform:
-                              "translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(null) rotateY(null) rotateZ(0deg) skew(0, 0)",
-                          }}
-                          alt=""
-                          className="button-link-icon"
-                        />
-                      </a>
-                      <div className="horizontal-line spacing-small"></div>
-                    </div>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>
