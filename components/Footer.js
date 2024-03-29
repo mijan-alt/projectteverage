@@ -8,12 +8,13 @@ function Footer({font}) {
       <div className="container w-container">
         <div className="grid-footer">
           <div className="footer-item">
-            <a href="/" className="footer-logo-link">
-              <img
-                src="https://assets-global.website-files.com/62172851fe5d176bbedd0632/62c036864bbb9cecd928c378_torcular-light.svg"
-                alt=""
-                className="footer-logo"
-              />
+            <a
+              href="/"
+              style={{ fontSize: 24 }}
+              className={`brand w-nav-brand ${font} text-lg text-green-500`}
+              aria-label="home"
+            >
+              TE<span className="text-[#e54530]">V</span>ERAGE
             </a>
             <p className={`footer-about text-white ${font}`}>
               Your partner in efficient flatbed transportation
@@ -28,7 +29,7 @@ function Footer({font}) {
               </div>
               <div className="address-content ">
                 <p className={`text-white ${font}`}>
-                    3 Market Road, Rumuomasi, Port-Harcourt, Nigeria
+                  3 Market Road, Rumuomasi, Port-Harcourt, Nigeria
                 </p>
               </div>
             </div>

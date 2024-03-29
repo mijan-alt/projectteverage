@@ -23,13 +23,13 @@ const Navbar = () => {
       <div className={`container w-container ${syne.className}`}>
         <div className="flex flex-row items-center justify-between">
           <div className={`nav-wrap ${syne.className}`}>
-            <a href="/" className="brand w-nav-brand" aria-label="home">
-              <img
-                src="https://assets-global.website-files.com/62172851fe5d176bbedd0632/62c03670ac8e86abc6a59303_torcular.svg"
-                loading="lazy"
-                alt=""
-                className="logo"
-              />
+            <a
+              href="/"
+              style={{fontSize:24}}
+              className={`brand w-nav-brand ${syne.className} text-lg`}
+              aria-label="home"
+            >
+              TE<span className="text-[#e54530]">V</span>ERAGE
             </a>
             <nav
               role="navigation"
@@ -70,7 +70,7 @@ const Navbar = () => {
                 onClick={() => setDropDown((prev) => !prev)}
               >
                 <div className="dropdown-toggle w-dropdown-toggle">
-                 <div className="dropdown-icon"></div>
+                  <div className="dropdown-icon"></div>
                   <div>Pages</div>
                 </div>
                 {dropDown && (
@@ -203,7 +203,7 @@ const Navbar = () => {
                   >
                     Services
                   </a>
-               
+
                   <a
                     href="/team"
                     className={`dropdown-link w-dropdown-link ${
