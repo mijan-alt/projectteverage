@@ -70,7 +70,7 @@ const Navbar = () => {
                 onClick={() => setDropDown((prev) => !prev)}
               >
                 <div className="dropdown-toggle w-dropdown-toggle">
-                  <div className="dropdown-icon w-icon-dropdown-toggle "></div>
+                 <div className="dropdown-icon"></div>
                   <div>Pages</div>
                 </div>
                 {dropDown && (
@@ -203,13 +203,7 @@ const Navbar = () => {
                   >
                     Services
                   </a>
-                  {/* <a
-                    href="/service-single"
-                    className={`dropdown-link w-dropdown-link ${syne.className}`}
-                    tabIndex="0"
-                  >
-                    Service Single
-                  </a> */}
+               
                   <a
                     href="/team"
                     className={`dropdown-link w-dropdown-link ${
