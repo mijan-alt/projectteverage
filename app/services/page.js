@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import ActionBoxSection from '@/components/ActionBox';
 
@@ -64,11 +65,11 @@ const page = () => {
 
       <div className="service-section section-spacing-bottom">
         <div className="container w-container">
-          <div className="section-title text-center">
+          {/* <div className="section-title text-center">
             <h2>Find Out What We’re Doing</h2>
-          </div>
+          </div> */}
           <div className="w-layout-grid grid-service">
-            {/* <div className="service-item">
+            <div className="service-item">
               <div className="service-info">
                 <h4 className="service-info-title">Air Freight</h4>
                 <p>
@@ -96,8 +97,8 @@ const page = () => {
                   className="service-icon-image"
                 />
               </div>
-            </div> */}
-            {/* <div className="service-item">
+            </div>
+            <div className="service-item">
               <div className="service-info">
                 <h4 className="service-info-title">Ocean Freight</h4>
                 <p>
@@ -125,7 +126,7 @@ const page = () => {
                   className="service-icon-image"
                 />
               </div>
-            </div> */}
+            </div>
             <div className="service-item">
               <div className="service-info">
                 <h4 className="service-info-title">Road Freight</h4>
@@ -184,7 +185,7 @@ const page = () => {
                 />
               </div>
             </div>
-            {/* <div className="service-item">
+            <div className="service-item">
               <div className="service-info">
                 <h4 className="service-info-title">Rail Freight</h4>
                 <p>
@@ -212,8 +213,8 @@ const page = () => {
                   className="service-icon-image"
                 />
               </div>
-            </div> */}
-            {/* <div className="service-item">
+            </div>
+            <div className="service-item">
               <div className="service-info">
                 <h4 className="service-info-title">Import</h4>
                 <p>
@@ -241,7 +242,7 @@ const page = () => {
                   className="service-icon-image"
                 />
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
         <div className="decoration blur-2"></div>
