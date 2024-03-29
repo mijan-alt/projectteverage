@@ -15,13 +15,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-
-     
-     <body className={syne.className}>
+      <body className={syne.className}>
         <Navbar font={syne.className} />
-        {children}
+        <div className={syne.className}>
+          {children}
+        </div>
+        <Footer font={syne.className} />
       </body>
-      <Footer font={syne.className} />
     </html>
   );
 }

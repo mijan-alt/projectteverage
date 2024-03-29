@@ -191,12 +191,12 @@ function Page() {
             </div>
             <div className="contact-info-item">
               <h6>Address</h6>
-              <p>Chicago HQ Estica Cop. Macomb, MI 48042</p>
+              <p>24 Aba Road Port Harcourt, Nigeria</p>
             </div>
             <div className="contact-info-item">
               <h6>Support</h6>
-              <p>+9 (245) 326-02-22</p>
-              <p>hello@example.com</p>
+              <p>+ 234 7082642998</p>
+              <p>mijanigoni@gmail.com</p>
             </div>
           </div>
         </div>
