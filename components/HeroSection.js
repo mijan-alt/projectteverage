@@ -21,9 +21,12 @@ function HeroSection() {
               Solution
             </h1>
             <p className="hero-description">
-              Supposing so be resolving breakfast am or perfectly. It drew a
-              hill from me. Valley by oh twenty direct me so. Departure
-              defective arranging rapturous did believe him all had supported.
+              Welcome to our trusted flatbed logistics services, where we
+              specialize in delivering exceptional transportation solutions
+              tailored to meet the unique needs of your business. Whether you're
+              transporting construction materials, heavy machinery, or oversized
+              cargo, we have the expertise and resources to ensure your goods
+              reach their destination safely and on time
             </p>
             <a href="/services" className="button-dark w-button">
               Our Services
@@ -80,10 +83,10 @@ function HeroSection() {
       <div className="hero-wrap-image">
         <div className="hero-image-mask">
           <img
-            src="https://assets-global.website-files.com/62172851fe5d176bbedd0632/62175009af395b4c3fb3bb79_hero-image.jpg"
+            src="https://images.unsplash.com/photo-1586191552066-d52dd1e3af86?q=80&w=1375&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             loading="lazy"
             sizes="(max-width: 991px) 100vw, 46vw"
-            srcSet="https://assets-global.website-files.com/62172851fe5d176bbedd0632/62175009af395b4c3fb3bb79_hero-image-p-500.jpeg 500w, https://assets-global.website-files.com/62172851fe5d176bbedd0632/62175009af395b4c3fb3bb79_hero-image-p-800.jpeg 800w, https://assets-global.website-files.com/62172851fe5d176bbedd0632/62175009af395b4c3fb3bb79_hero-image.jpg 1000w"
+            srcSet="https://images.unsplash.com/photo-1586191552066-d52dd1e3af86?q=80&w=1375&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 500w, https://assets-global.website-files.com/62172851fe5d176bbedd0632/62175009af395b4c3fb3bb79_hero-image-p-800.jpeg 800w, https://assets-global.website-files.com/62172851fe5d176bbedd0632/62175009af395b4c3fb3bb79_hero-image.jpg 1000w"
             alt=""
             className="hero-image"
           />
