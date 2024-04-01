@@ -11,7 +11,7 @@ function Footer({font}) {
             <a
               href="/"
               style={{ fontSize: 24 }}
-              className={`brand w-nav-brand ${font} text-lg text-green-500`}
+              className={`brand w-nav-brand ${font} text-lg `}
               aria-label="home"
             >
               TE<span className="text-[#e54530]">V</span>ERAGE
