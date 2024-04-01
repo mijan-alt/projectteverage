@@ -5,7 +5,8 @@ import { MotionAnimate } from "react-motion-animate";
 
 function QuoteSection() {
   const [loading, setLoading]= useState(false)
-  const [formVisible, setFormVisible]= useState(true)
+  const [formVisible, setFormVisible] = useState(true)
+  const [errorMessage, setErrorMessage]= useState(null)
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -48,12 +49,12 @@ function QuoteSection() {
     try {
       setLoading(true)
       const response = await axios.post(
-        `${process.env.SERVER_URL}/submit-quote`,
+        `${process.env.NEXT_PUBLIC_URL}submit-quote`,
         formData,
         {
           headers: {
             "Content-Type": "application/json",
-          }
+          },
         }
       );
       if (response.status == 200) {
@@ -64,6 +65,7 @@ function QuoteSection() {
       // You can handle success or display a success message here
     } catch (error) {
       console.error("Error:", error);
+      console.log("error response", error.response)
       setLoading(false)
       // You can handle errors or display an error message here
     }

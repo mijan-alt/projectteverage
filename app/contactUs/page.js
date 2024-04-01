@@ -38,7 +38,7 @@ function Page() {
     try {
       setLoading(true);
       const response = await axios.post(
-        `${process.env.SERVER_URL}/enquire`,
+        `${process.env.NEXT_PUBLIC_URL}enquire`,
         formData
       );
       console.log(response);
