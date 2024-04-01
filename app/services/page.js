@@ -85,7 +85,7 @@ const page = () => {
                     src="https://assets-global.website-files.com/62172851fe5d176bbedd0632/62185a0d0eeb466cdde546a7_arrow-up-right-dark.svg"
                     loading="lazy"
                     alt=""
-                    className="button-link-dark-icon"
+                    className="button-link-dark-icon hover:rotate-45"
                   />
                 </a>
               </div>
@@ -172,7 +172,7 @@ const page = () => {
                     src="https://assets-global.website-files.com/62172851fe5d176bbedd0632/62185a0d0eeb466cdde546a7_arrow-up-right-dark.svg"
                     loading="lazy"
                     alt=""
-                    className="button-link-dark-icon"
+                    className="button-link-dark-icon hover:rotate-45"
                   />
                 </a>
               </div>
@@ -201,7 +201,7 @@ const page = () => {
                     src="https://assets-global.website-files.com/62172851fe5d176bbedd0632/62185a0d0eeb466cdde546a7_arrow-up-right-dark.svg"
                     loading="lazy"
                     alt=""
-                    className="button-link-dark-icon"
+                    className="button-link-dark-icon hover:rotate-45"
                   />
                 </a>
               </div>
@@ -230,7 +230,7 @@ const page = () => {
                     src="https://assets-global.website-files.com/62172851fe5d176bbedd0632/62185a0d0eeb466cdde546a7_arrow-up-right-dark.svg"
                     loading="lazy"
                     alt=""
-                    className="button-link-dark-icon"
+                    className="button-link-dark-icon hover:rotate-45"
                   />
                 </a>
               </div>
