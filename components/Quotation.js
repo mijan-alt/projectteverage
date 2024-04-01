@@ -48,7 +48,7 @@ function QuoteSection() {
     try {
       setLoading(true)
       const response = await axios.post(
-        "http://localhost:5000/submit-quote",
+        "https://teverage-server.onrender.com/submit-quote",
         formData,
         {
           headers: {

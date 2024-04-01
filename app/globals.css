@@ -8,7 +8,8 @@
 :root {
     --dim-grey: #6b6868;
     --dark-gray: #140a09;
-    --red: #e54530;
+    /* --red: #e54530; */
+    --red:#03AC13;
     --white: white;
     --snow: #f8f4f3;
     --black: black;
