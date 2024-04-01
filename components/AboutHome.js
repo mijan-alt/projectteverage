@@ -22,8 +22,8 @@ function AboutHome() {
               className="about-info-wrap"
             >
               <p className="text-white">
-                "Departure defective arranging rapturous did believe him all had
-                supported. Family months lasted"
+                "Specializing in transporting heavy machinery, we have provided
+                reliable logistics services to our clients for over 7 years."
               </p>
               <div className="about-info">
                 <h5 className="about-info-title">Carolyn Ortiz</h5>
@@ -35,12 +35,10 @@ function AboutHome() {
               className="about-contact"
             >
               <h6 className="about-contact-title">
-                Logistic solutions for businesses to solve any delivery problems
+                We offer tailored logistic solutions for businesses to solve any
+                transportation challenges.
               </h6>
-              <a
-                href="/contactUs"
-                className="button-dark button-full w-button"
-              >
+              <a href="/contactUs" className="button-dark button-full w-button">
                 Get In Touch
               </a>
             </div>

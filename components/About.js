@@ -7,15 +7,14 @@ function AboutSection() {
       <div className="container w-container">
         <div className="hero-inner">
           <h1>
-            Experience The Optimizing logistics chain from A to Z to increase
-            your business competitiveness.
+            Experience Optimized Logistics Solutions to Enhance
+            Your Business Competitiveness
           </h1>
           <p id="w-node-_56ae5c25-f758-bfe4-7e06-bf2fb7d0f451-68dbad30">
-            How promotion excellent curiosity yet attempted happiness Gay
-            prosperous impression had conviction For every delay death ask to
-            style Me mean able my by in they Extremity now strangers contained
-            breakfast him discourse additions Sincerity collected contented led
-            now perpetual extremely forfeited.
+            Teverage offers cutting-edge logistics solutions tailored to meet
+            your business needs. Our services are designed to optimize the
+            entire logistics chain from A to Z, ensuring efficiency and
+            competitiveness for your business.
           </p>
         </div>
         <div className="grid-about-experience">

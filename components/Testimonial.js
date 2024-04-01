@@ -27,9 +27,10 @@ function TestimonialSection() {
             <div className="testimonial-mask w-slider-mask">
               <div className="testimonial-slide w-slide">
                 <p>
-                  "Moonlight newspaper up its enjoyment agreeable depending.
-                  Timed voice share led him to widen noisy young. At weddings
-                  believed laughing "
+                  "Working with Teverage has been a game-changer for our
+                  business. Their expertise in transporting heavy machinery has
+                  made our operations smoother and more efficient. We can always
+                  rely on their timely deliveries and professional service."
                 </p>
                 <ul
                   role="list"
@@ -53,8 +54,8 @@ function TestimonialSection() {
                     className="testimonial-avatar"
                   />
                   <div className="testimonial-info">
-                    <h6 className="testimonial-author-name">Lori Stevens</h6>
-                    <p className="testimonial-author-job-title">CEO of Zoom</p>
+                    <h6 className="testimonial-author-name">Mijan Richard</h6>
+                    <p className="testimonial-author-job-title">Contractor</p>
                   </div>
                 </div>
                 <div className="testimonial-quote">
