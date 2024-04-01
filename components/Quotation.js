@@ -48,7 +48,7 @@ function QuoteSection() {
     try {
       setLoading(true)
       const response = await axios.post(
-        "https://teverage-server.onrender.com/submit-quote",
+        `${process.env.SERVER_URL}/submit-quote`,
         formData,
         {
           headers: {
@@ -73,7 +73,7 @@ function QuoteSection() {
     <div className="quote-section section-spacing-top">
       <div className="container w-container">
         <div className="w-layout-grid grid-contact">
-          <MotionAnimate animation="fadeInUp" reset={true}>
+       
             <div className="quote-form-wrap">
               <div className="quote-form-title">
                 <h4>Request a Quote</h4>
@@ -306,7 +306,7 @@ function QuoteSection() {
                 </div>
               </div>
             </div>
-          </MotionAnimate>
+      
         </div>
       </div>
     </div>
